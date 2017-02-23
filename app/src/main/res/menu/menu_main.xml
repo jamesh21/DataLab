@@ -2,9 +2,32 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="group2.tcss450.uw.edu.datalab.MainActivity">
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/action_settings"-->
+        <!--app:showAsAction="never" />-->
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/trash_menu_item"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:visible="false"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/trash_menu_item_db"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:visible="false"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/file_menu_item"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="List of Colors"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/db_menu_item"
+        android:orderInCategory="100"
+        android:title="DataBase of Colors"
         app:showAsAction="never" />
 </menu>
